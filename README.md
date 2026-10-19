@@ -1,5 +1,9 @@
 # postgres-backup
 
+> [!WARNING]
+> Этот скрипт написан для личного использования и не рекомендуется для продакшена. Используйте на свой страх и риск; обязательно проверяйте восстановление на тестовой базе.
+> *This script was written for personal use and is not recommended for production. Use at your own risk and always test restores on a scratch database.*
+
 Encrypted (GPG AES-256) `pg_dump` backups of PostgreSQL 17 to S3, on a schedule. Single sh script in a Docker image.
 
 ```bash
